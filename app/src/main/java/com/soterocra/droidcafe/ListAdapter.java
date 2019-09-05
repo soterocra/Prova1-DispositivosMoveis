@@ -71,7 +71,7 @@ public class ListAdapter extends BaseAdapter {
         }
 
         viewHolder.txtName.setText(values.get(position));
-        viewHolder.txtVersion.setText("Version: "+ numbers.get(position));
+        viewHolder.txtVersion.setText(numbers.get(position));
         viewHolder.icon.setImageResource(images[position]);
 
         return convertView;
